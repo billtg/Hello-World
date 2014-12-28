@@ -1,8 +1,7 @@
 function E = AEoutput(input,framerate,type)
 %take in frame resolved input data, frame rate and keyframe type
 %output excel writeable cell matrix formatted for AE keyframe
-%This line is a test for GitHub
-$test
+%
 
 %determine keyframe type (position, scale, rotation, value
 [a,b] = size(input);
